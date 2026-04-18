@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.env
+venv/
+.ipynb_checkpoints/
+
+# Power BI temp files
+*.pbix
+*.pbix.tmp
+
+# Large datasets (avoid uploading)
+data/*.csv
