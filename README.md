@@ -12,8 +12,8 @@ Analyze top electricity-consuming users
 Understand user segmentation patterns
 Evaluate grid stability (voltage & frequency)
 📊 Dashboard Preview
+![alt text](/images/dashboard.png)
 
-(Add your dashboard screenshot here)
 
 🧱 Dashboard Components
 🔹 KPI Cards
@@ -119,4 +119,6 @@ Improve segmentation with advanced clustering
 
 ⭐ Conclusion
 
-This project demonstrates how large-scale electricity consumption data can be transformed into actionable insights and business decisions using data analytics and interactive dashboards.
+This project demonstrates how large-scale electricity consumption data 
+can be transformed into actionable insights and business decisions 
+using data analytics and interactive dashboards.
