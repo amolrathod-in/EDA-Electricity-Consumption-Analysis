@@ -5,8 +5,7 @@ venv/
 .ipynb_checkpoints/
 
 # Power BI temp files
-*.pbix
-*.pbix.tmp
+# *.pbix.tmp
 
 # Large datasets (avoid uploading)
 data/*.csv
