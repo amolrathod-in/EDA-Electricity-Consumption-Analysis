@@ -74,23 +74,6 @@ Matplotlib / Seaborn / Plotly — Visualization
 DAX — Measures and calculations
 Jupyter Notebook — EDA workflow
 
-📂 Project Structure
-
-bareilly-electricity-eda/
-│
-├── data/
-│ └── cleaned_bareilly_data.csv
-├── notebooks/
-│ └── bareilly_eda.ipynb
-├── dashboards/
-│ └── dashboard.pbix
-├── images/
-│ └── dashboard.png
-├── sql/
-│ └── queries.sql
-├── README.md
-└── requirements.txt
-
 ▶️ How to Use
 Open the .pbix file in Power BI Desktop
 Use slicers to filter:
