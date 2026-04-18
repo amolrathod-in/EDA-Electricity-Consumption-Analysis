@@ -11,6 +11,7 @@ Detect peak demand periods
 Analyze top electricity-consuming users
 Understand user segmentation patterns
 Evaluate grid stability (voltage & frequency)
+
 📊 Dashboard Preview
 ![alt text](/images/dashboard.png)
 
