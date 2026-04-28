@@ -10,122 +10,213 @@
 
 This project presents an end-to-end **Exploratory Data Analysis (EDA)** and an **interactive Power BI dashboard** built using smart meter data from Bareilly, Uttar Pradesh, India.
 
-The dashboard analyzes 3.9 million smart meter readings across 38 users to uncover consumption patterns, peak demand behavior, and grid performance insights.
+The dataset contains approximately **3.9 million time-stamped electricity readings** from **38 smart meters**, enabling deep insights into consumption patterns, peak demand, and grid performance.
 
-🎯 Objectives
-Identify monthly and hourly consumption trends
-Detect peak demand periods
-Analyze top electricity-consuming users
-Understand user segmentation patterns
-Evaluate grid stability (voltage & frequency)
-📊 Dashboard Preview
-![alt text](/images/dashboard.png)
+---
 
+## 🎯 Problem Statement
 
-🧱 Dashboard Components
-🔹 KPI Cards
-Total Consumption: 76,631.57 kWh
-Peak Demand: 0.30 kW
-Average per User: 2,016.62 kWh
-Active Users: 38
-Average Voltage: 219.56 V
-Grid Frequency: 45.64 Hz
+Electricity distribution systems require efficient monitoring and analysis to:
 
-📈 1. Monthly Consumption Trend
-Combination of bar chart + moving average line
-Shows clear seasonal pattern
-Peak observed in July
+* Optimize energy usage
+* Identify peak demand periods
+* Detect anomalies in grid behavior
 
-📊 2. Top 10 Electricity Consumers
-Horizontal bar chart ranking users
-Identifies high-impact consumers
-Example: BR51 is the top contributor
+This project aims to provide **data-driven insights** into electricity consumption to support better decision-making.
 
-🔥 3. Heatmap (Hour × Month)
-Displays average consumption across time
-Helps identify daily and seasonal usage patterns
+---
 
-👥 4. User Segmentation
-Categorizes users into Low and Medium segments
-Shows highly skewed consumption distribution
+## 🧠 Technologies Used
 
-🍩 5. Consumption Categories
-Donut chart showing segment share
-Low segment contributes ~99% of total usage
+* Python (Pandas, NumPy)
+* SQL
+* Power BI
 
-💡 Key Insights Panel
-Peak consumption occurs in July due to summer demand
-Late-night hours show highest usage
-Top users dominate total consumption
-Grid remains stable with minor fluctuations
-Low segment contributes majority (~99%) of usage
+### Core Concepts
 
-💼 Business Insights
-⚡ Peak demand in summer → plan load distribution
-🕒 Late-night usage → opportunity for time-based pricing
-🔌 Top users dominate → target optimization strategies
-⚠️ Voltage spikes → improve grid stability
+* Exploratory Data Analysis
+* Time Series Analysis
+* Data Visualization
 
-🎛 Filters (Slicers)
-📅 Month
-⚡ Segment (Low / Medium)
-🔍 User ID
+---
 
-These slicers enable interactive filtering across all visuals.
+## 📂 Project Structure
 
-🛠 Tools & Technologies
-Power BI — Dashboard development
-Python (Pandas, NumPy) — Data cleaning & preprocessing
-Matplotlib / Seaborn / Plotly — Visualization
-DAX — Measures and calculations
-Jupyter Notebook — EDA workflow
-
-📂 Project Structure
-
-bareilly-electricity-eda/
+```id="2nq6vi"
+electricity-project/
 │
 ├── data/
-│ └── cleaned_bareilly_data.csv
-├── notebooks/
-│ └── bareilly_eda.ipynb
-├── dashboards/
-│ └── dashboard.pbix
-├── images/
-│ └── dashboard.png
+│   ├── Bareilly_2021.csv
+│   └── cleaned_bareilly_data.csv
+│
 ├── sql/
-│ └── queries.sql
-├── README.md
-└── requirements.txt
+│   └── electricity_analysis.sql
+│
+├── pandas/
+│   └── electricity_analysis.py
+│
+├── powerbi/
+│   └── dashboard.pbix
+│
+├── images/
+│   └── dashboard.png
+│
+└── README.md
+```
 
-▶️ How to Use
-Open the .pbix file in Power BI Desktop
-Use slicers to filter:
-Month
-Segment
-User
-Explore:
-Trends
-Heatmap
-Top users
-Insights
+---
 
-📌 Key Takeaways
-Electricity demand peaks during summer months
-Usage is highest during late-night hours
-A small number of users contribute significantly
-Majority of consumption comes from low-segment users
-Grid performance is stable with minor variations
+## 📊 Dashboard Preview
 
+![Dashboard Preview](images/dashboard.png)
 
-🚀 Future Improvements
-Add predictive modeling for demand forecasting
-Introduce real-time data integration
-Enhance dashboard with drill-through analysis
-Improve segmentation with advanced clustering
+---
 
+## 🧱 Dashboard Components
 
-⭐ Conclusion
+### 🔹 KPI Cards
 
-This project demonstrates how large-scale electricity consumption data 
-can be transformed into actionable insights and business decisions 
-using data analytics and interactive dashboards.
+* Total Consumption: **76,631.57 kWh**
+* Peak Demand: **0.30 kW**
+* Average Consumption per User: **2,016.62 kWh**
+* Active Users: **38**
+* Average Voltage: **219.56 V**
+* Grid Frequency: **45.64 Hz**
+
+---
+
+### 📈 Monthly Consumption Trend
+
+* Combines bar chart with moving average
+* Reveals seasonal usage patterns
+* Peak consumption observed in **July**
+
+---
+
+### 📊 Top 10 Electricity Consumers
+
+* Identifies high-usage users
+* Helps target optimization strategies
+* Example: **BR51** is the highest consumer
+
+---
+
+### 🔥 Heatmap (Hour × Month)
+
+* Shows hourly consumption across months
+* Highlights peak demand hours
+* Useful for load balancing
+
+---
+
+### 👥 User Segmentation
+
+* Categorized into Low and Medium usage
+* Majority fall under **Low consumption**
+* Indicates uneven usage distribution
+
+---
+
+### 🍩 Consumption Distribution
+
+* Donut chart showing segment contribution
+* Low consumption users contribute ~99%
+* Highlights consumption imbalance
+
+---
+
+## ⚙️ How It Works
+
+1. **Data Collection**
+
+   * Smart meter readings collected over time
+
+2. **Data Cleaning**
+
+   * Handling missing values
+   * Formatting timestamps
+   * Removing inconsistencies
+
+3. **Data Analysis**
+
+   * Aggregation using SQL & Pandas
+   * Trend and pattern extraction
+
+4. **Visualization**
+
+   * Dashboard built using Power BI
+   * Interactive filters and insights
+
+---
+
+## 🧠 Key Insights
+
+* Electricity consumption shows clear **seasonal trends**
+* Peak demand occurs during specific **hours of the day**
+* A small group of users contributes **disproportionately high usage**
+* Majority of users have **low consumption behavior**
+* Grid voltage remains stable, but **frequency fluctuations observed**
+
+---
+
+## 📊 Use Cases
+
+* Energy demand forecasting
+* Load balancing and peak management
+* Smart grid optimization
+* Policy and infrastructure planning
+
+---
+
+## ⚠️ Limitations
+
+* Limited number of users (38 meters)
+* Data restricted to a single region
+* No real-time streaming data
+
+---
+
+## 🔥 Future Improvements
+
+* Time-series forecasting using ARIMA / Prophet
+* Anomaly detection in consumption patterns
+* Cost and billing analytics
+* Real-time dashboard integration
+
+---
+
+## 🌐 Deployment
+
+This project can be extended into:
+
+* Power BI Online dashboard
+* Embedded analytics platform
+* Real-time monitoring system
+
+---
+
+## 👨‍💻 Author
+
+**Your Name**
+
+---
+
+## ⭐ Acknowledgements
+
+* Smart meter dataset
+* Power BI community
+* Python data analysis ecosystem
+
+---
+
+## 📌 Conclusion
+
+This project demonstrates how large-scale electricity data can be transformed into meaningful insights using EDA and visualization tools.
+
+It highlights:
+
+* Data-driven decision-making
+* Real-world analytics workflow
+* Practical dashboard development
+
+---
