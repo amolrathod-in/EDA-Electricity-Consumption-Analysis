@@ -197,7 +197,7 @@ This project can be extended into:
 
 ## 👨‍💻 Author
 
-**Your Name**
+**Amol Rathod**
 
 ---
 
