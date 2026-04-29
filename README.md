@@ -6,7 +6,7 @@
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 This project presents an end-to-end **Exploratory Data Analysis (EDA)** and an **interactive Power BI dashboard** built using smart meter data from Bareilly, Uttar Pradesh, India.
 
@@ -14,7 +14,7 @@ The dataset contains approximately **3.9 million time-stamped electricity readin
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 
 Electricity distribution systems require efficient monitoring and analysis to:
 
@@ -26,7 +26,7 @@ This project aims to provide **data-driven insights** into electricity consumpti
 
 ---
 
-## 🧠 Technologies Used
+## Technologies Used
 
 * Python (Pandas, NumPy)
 * SQL
@@ -40,7 +40,7 @@ This project aims to provide **data-driven insights** into electricity consumpti
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```id="2nq6vi"
 electricity-project/
@@ -66,15 +66,15 @@ electricity-project/
 
 ---
 
-## 📊 Dashboard Preview
+## Dashboard Preview
 
 ![Dashboard Preview](images/dashboard.png)
 
 ---
 
-## 🧱 Dashboard Components
+## Dashboard Components
 
-### 🔹 KPI Cards
+### KPI Cards
 
 * Total Consumption: **76,631.57 kWh**
 * Peak Demand: **0.30 kW**
@@ -85,7 +85,7 @@ electricity-project/
 
 ---
 
-### 📈 Monthly Consumption Trend
+### Monthly Consumption Trend
 
 * Combines bar chart with moving average
 * Reveals seasonal usage patterns
@@ -93,7 +93,7 @@ electricity-project/
 
 ---
 
-### 📊 Top 10 Electricity Consumers
+### Top 10 Electricity Consumers
 
 * Identifies high-usage users
 * Helps target optimization strategies
@@ -101,7 +101,7 @@ electricity-project/
 
 ---
 
-### 🔥 Heatmap (Hour × Month)
+### Heatmap (Hour × Month)
 
 * Shows hourly consumption across months
 * Highlights peak demand hours
@@ -109,7 +109,7 @@ electricity-project/
 
 ---
 
-### 👥 User Segmentation
+### User Segmentation
 
 * Categorized into Low and Medium usage
 * Majority fall under **Low consumption**
@@ -117,7 +117,7 @@ electricity-project/
 
 ---
 
-### 🍩 Consumption Distribution
+### Consumption Distribution
 
 * Donut chart showing segment contribution
 * Low consumption users contribute ~99%
@@ -125,7 +125,7 @@ electricity-project/
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 1. **Data Collection**
 
@@ -149,7 +149,7 @@ electricity-project/
 
 ---
 
-## 🧠 Key Insights
+## Key Insights
 
 * Electricity consumption shows clear **seasonal trends**
 * Peak demand occurs during specific **hours of the day**
@@ -159,7 +159,7 @@ electricity-project/
 
 ---
 
-## 📊 Use Cases
+## Use Cases
 
 * Energy demand forecasting
 * Load balancing and peak management
@@ -168,7 +168,7 @@ electricity-project/
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 * Limited number of users (38 meters)
 * Data restricted to a single region
@@ -176,7 +176,7 @@ electricity-project/
 
 ---
 
-## 🔥 Future Improvements
+## Future Improvements
 
 * Time-series forecasting using ARIMA / Prophet
 * Anomaly detection in consumption patterns
@@ -185,7 +185,7 @@ electricity-project/
 
 ---
 
-## 🌐 Deployment
+## Deployment
 
 This project can be extended into:
 
@@ -195,13 +195,13 @@ This project can be extended into:
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Amol Rathod**
 
 ---
 
-## ⭐ Acknowledgements
+## Acknowledgements
 
 * Smart meter dataset
 * Power BI community
@@ -209,7 +209,7 @@ This project can be extended into:
 
 ---
 
-## 📌 Conclusion
+## Conclusion
 
 This project demonstrates how large-scale electricity data can be transformed into meaningful insights using EDA and visualization tools.
 
